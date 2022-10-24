@@ -19,7 +19,7 @@ You can desirialize these data to an object and use it to test your expected.
 Bugs:
 I didnt find any important bugs.
 1)in the clear all filter in the airlines,the number of flights that should be returned is zero because you diselect everything.
-2)A small UI bug. When search with some filters(eg.no number of stops) the was a second : in the return.
+2)A small UI bug. When search with some filters(eg.no number of stops) there was a second : in the return.
 For example  Filter by : : 87 of 977 flights
 
 
