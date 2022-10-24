@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Etraveli_exercise" parallel="tests" thread-count="1" verbose="10">
+    <parameter name="targetHostUrl" value="https://www.flightnetwork.com"/>
+    <parameter name="driverType" value="ChromeDriver"/>
+    <parameter name="fromDestination" value="Athens"/>
+    <parameter name="toDestination" value="Paris"/>
+    <parameter name="departureDate" value="2022-12-28"/>
+    <parameter name="returnDate" value="2022-12-31"/>
+    <parameter name="passengers" value="2"/>
+    <parameter name="passengersClass" value="Premium"/>
+
+
+    <test name="ui" preserve-order="true">
+        <classes>
+            <class name="com.etraveli.assignment.FirstTask"/>
+        </classes>
+    </test>
+
+</suite>
